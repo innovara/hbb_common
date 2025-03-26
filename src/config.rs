@@ -2937,7 +2937,7 @@ pub mod keys {
         "windows-service-video-save-directory";
     pub const OPTION_VIDEO_SAVE_DIRECTORY: &str = "video-save-directory";
     pub const OPTION_ENABLE_ABR: &str = "enable-abr";
-    pub const OPTION_ALLOW_REMOVE_WALLPAPER: &str = "allow-remove-wallpaper";
+    pub const OPTION_ENABLE_REMOVE_WALLPAPER: &str = "enable-remove-wallpaper";
     pub const OPTION_ALLOW_ALWAYS_SOFTWARE_RENDER: &str = "allow-always-software-render";
     pub const OPTION_ENABLE_HWCODEC: &str = "enable-hwcodec";
     pub const OPTION_APPROVE_MODE: &str = "approve-mode";
@@ -3180,7 +3180,7 @@ pub mod keys {
         OPTION_ALLOW_AUTO_RECORD_INCOMING,
         OPTION_WINDOWS_SERVICE_VIDEO_SAVE_DIRECTORY,
         OPTION_ENABLE_ABR,
-        OPTION_ALLOW_REMOVE_WALLPAPER,
+        OPTION_ENABLE_REMOVE_WALLPAPER,
         OPTION_ALLOW_ALWAYS_SOFTWARE_RENDER,
         OPTION_ENABLE_HWCODEC,
         OPTION_APPROVE_MODE,
