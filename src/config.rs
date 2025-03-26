@@ -2631,7 +2631,7 @@ pub mod keys {
     pub const OPTION_ENABLE_REMOTE_RESTART: &str = "enable-remote-restart";
     pub const OPTION_ENABLE_RECORD_SESSION: &str = "enable-record-session";
     pub const OPTION_ENABLE_BLOCK_INPUT: &str = "enable-block-input";
-    pub const OPTION_ALLOW_REMOTE_CONFIG_MODIFICATION: &str = "allow-remote-config-modification";
+    pub const OPTION_ENABLE_REMOTE_CONFIG_MODIFICATION: &str = "enable-remote-config-modification";
     pub const OPTION_ALLOW_NUMERNIC_ONE_TIME_PASSWORD: &str = "allow-numeric-one-time-password";
     pub const OPTION_ENABLE_LAN_DISCOVERY: &str = "enable-lan-discovery";
     pub const OPTION_DIRECT_SERVER: &str = "direct-server";
@@ -2852,7 +2852,7 @@ pub mod keys {
         OPTION_ENABLE_REMOTE_RESTART,
         OPTION_ENABLE_RECORD_SESSION,
         OPTION_ENABLE_BLOCK_INPUT,
-        OPTION_ALLOW_REMOTE_CONFIG_MODIFICATION,
+        OPTION_ENABLE_REMOTE_CONFIG_MODIFICATION,
         OPTION_ALLOW_NUMERNIC_ONE_TIME_PASSWORD,
         OPTION_ENABLE_LAN_DISCOVERY,
         OPTION_DIRECT_SERVER,
